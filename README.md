@@ -9,5 +9,6 @@ docker pull cooliron/as88
 ```
 .\run.ps1
 ```
-This will create `as88` container and mount current working directory to `/data`.
+This will create `as88` container and mount current working directory to `/data`. <br>
+For data persistance `work` volume is also mounted to `/work` directory. <br>
 Container shell will be attached automatically.
