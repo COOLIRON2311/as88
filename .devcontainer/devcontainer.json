@@ -1,0 +1,16 @@
+{
+	"name": "as88",
+	"build": {
+		"context": ".",
+		"dockerfile": "./Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"13xforever.language-x86-64-assembly"
+			]
+		}
+	},
+	"workspaceMount": "source=${localWorkspaceFolder}/project,target=/workspace,type=bind",
+	"workspaceFolder": "/workspace"
+}
